@@ -1,0 +1,1 @@
+<?php echo wpbeginner_numeric_posts_nav(); ?>

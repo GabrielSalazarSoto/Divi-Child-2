@@ -1,0 +1,193 @@
+/*
+|--------------------------------------------------------------------------
+| Areas de Practica 
+|--------------------------------------------------------------------------
+*/
+
+.contenedor_sectores{
+width:1080px!important;
+padding:20px 0px;
+margin:0px auto;
+}
+
+#selector_sectores {margin: 0px auto;}
+
+#selector_sectores .abridor {
+    width: auto;
+    max-width:700px;
+    /* background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 8px; */
+    font-size: 22px;
+    color: #FFF;
+    display: block;
+    padding:10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.centrar {width:1000px;margin: 0px auto;}
+#selector_sectores .flecha{background: url(../img/flecha-abajo.png) no-repeat center;width:30px;height:30px;float:left;background-color:rgba(255, 255, 255, 0.2); 
+    border-radius:20px;margin-right:10px;margin-top: 8px;margin-left: 24px;}
+
+#selector_sectores:hover .flecha {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#selector_sectores .ssector {
+    border-right: 1px solid #FFF;
+    width: 125px;
+    padding: 5px 10px;
+    color: #fff;
+    float: left;
+    text-align: center;
+    height: 60px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#selector_sectores .ssector:hover {
+    text-decoration: underline;
+}
+
+#selector_sectores .ssector:last-child {
+    border: none;
+}
+
+#selector_sectores .chinadesk a {
+    color: #fff!important;
+}
+
+#areas_detalle #selector_sectores span {
+    display: none;
+}
+
+#areas_detalle #selector_sectores .ssector {
+    width: 150px;
+}
+
+.sector {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    -webkit-column-count: 2;
+            column-count: 2;
+    -webkit-column-width: 49%;
+            column-width: 49%;
+    -webkit-column-fill: auto;
+            column-fill: auto;
+    width: 100%;
+    height: 716px;
+}
+article.post-17129 .sector {height: 714px!important;}
+.sector li {
+    margin:5px 0px;
+    list-style: none;
+}
+
+.sector li a {
+    color: #323232;
+    padding: 3px 5px;
+    font-size: 1rem;
+    display: block;
+}
+
+.sector_destacado {
+    font-weight: bold;
+    background: rgba(33, 128, 168, 0.3);
+    border-radius: 6px;
+}
+
+.sector_destacado a {
+    color: #666;
+}
+
+.sector_destacado2 {
+    font-weight: bold;
+}
+
+#areas_detalle {
+    background: #2180a8;
+    height: auto;
+    -webkit-transition: all;
+    transition: all;
+    display: none;
+    position: absolute;
+    padding: 30px;
+    width:1080px;
+    z-index: 1;
+}
+
+#areas_detalle .sector {
+    margin: 2px 0px 0px 0px;
+    font-size: 12px;
+}
+
+#areas_detalle .sector_destacado {
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+#areas_detalle .sector span,
+#areas_detalle .sector a {
+    color: #fff;
+}
+
+#selectedArea {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.single-areas #contenido {
+    padding: 2%;
+}
+
+#areas_detalle .sector {
+    float: left;
+}
+
+
+
+#selectedArea {
+    color: #FFF;
+}
+
+.abogadoslider .cargo {
+    font-weight: bold;
+}
+
+.abogadoslider .nombre {
+    color: #2180A8;
+    height: 46px;
+}
+
+.slick-slider{
+    width: 96%;
+    margin: 0px auto;
+}
+.slick-list
+{
+    margin:0 auto;
+    width:96%;
+}
+.slick-next::before {
+        background: url('images/flecha-slider-d.png') no-repeat;
+        content: "";
+        display: block;
+        height:25px;
+        width:25px;
+        right: -10px;
+}
+.slick-prev::before {
+        background: url('images/flecha-slider-d.png') no-repeat;
+        content: "";
+        display: block;
+        height: 25px;
+        width: 25px;
+        left: -10px;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        -webkit-filter: FlipH;
+                filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
